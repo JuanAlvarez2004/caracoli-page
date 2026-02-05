@@ -4,7 +4,7 @@ import flower from '/flower.png'
 export default function About() {
   return (
     <section className='relative h-screen bg-black py-20 px-10 overflow-x-clip'>
-      <div className='absolute rotate-90 left-0 right-0 top-0'>
+      <div className='hidden xl:block absolute rotate-90 left-0 right-0 top-0'>
         <img className='brightness-60 scale-60' src={flower} alt="Flores" />
       </div>
       <div className='w-full h-full flex flex-col items-center justify-center gap-10'>
